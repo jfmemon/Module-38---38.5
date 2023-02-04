@@ -1,0 +1,3 @@
+// what is event loop
+// 1) Event loop in JavaScript is a "MECHANISM" through which the 'calls waiting for execution' in the callback queue/job queue can be put on the call stack.
+// 2) The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which effectively runs it. Such an iteration is called a tick in the Event Loop.
