@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore level 4 practice</title>
+</head>
+<body>
+    <div style="display: flex; justify-content: center;">
+        <div style="width: 500px;">
+            <h1 style="text-align: center;">Please contact me</h1>
+
+            <div style="margin-left: 50px;">
+                <label for="">Name</label><br>
+                <input id="name-input-field" type="text" style="padding: 7px;">
+                <button onclick="deleteName()" style="border-radius: 17px; padding: 7px; background-color: black; color: white;" type="button">Delete Name</button>
+                <button onclick="sendName()" style="border-radius: 17px; padding: 7px; background-color: black; color: white;" type="button">Send Name</button>
+            </div>
+
+            <div style="margin-top: 20px; margin-left: 50px;">
+                <label for="">Email</label><br>
+                <input id="email-input-field" type="email" style="padding: 7px;">
+                <button onclick="deleteEmail()" style="border-radius: 17px; padding: 7px; background-color: black; color: white;" type="button">Delete Email</button>
+                <button onclick="sendEmail()" style="border-radius: 17px; padding: 7px; background-color: black; color: white;" type="button">Send Email</button>
+            </div>
+
+            <div style="margin-top: 20px; margin-left: 50px;">
+                <label for="">Message</label><br>
+                <input id="message-input-field" type="text" style="padding: 7px;">
+                <button onclick="deleteMessage()" style="border-radius: 17px; padding: 7px; background-color: black; color: white;" type="button">Delete Message</button>
+                <button onclick="sendMessage()" style="border-radius: 17px; padding: 7px; background-color: black; color: white;" type="button">Send Message</button>
+            </div>
+
+            <div style="display: flex;justify-content: center; margin-top: 30px;">
+                <button onclick="save()" style="border-radius: 17px; padding: 7px; background-color: black; color: white; text-align: center; margin-right: 20px;" type="reset">Save</button>
+                <button onclick="reset()" style="border-radius: 17px; padding: 7px; background-color: black; color: white; text-align: center; margin-left: 20px;" type="reset">Reset</button>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="level-4.js"></script>
+</body>
+</html>
